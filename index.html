@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav>
+                    <ul>
+                        <li><a class="glitched-btn" href="#home">[ HOME ]</a></li>
+                        <li><a class="glitched-btn" href="#work">[ WORK ]</a></li>
+                        <li><a class="glitched-btn" href="#process">[ PROCESS ]</a></li>
+                        <li><a class="glitched-btn" href="#connect">[ CONNECT ]</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="homepage">
+            <div class="home-content">
+                <span id="homepage-header__text"></span>
+                <p id="homepage-main__text"></p>
+                <p id="homepage-additional__text"></p>
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <h2>[ Completed Projects ]</h2>
+            <div class="work-content">
+
+                <div class="work-content__item animate__animated wow animate__fadeInUp" data-wow-offset="350">
+                    <a href="https://max4n.github.io/smartcookiewifi/" target="_blank">
+                        <h3>SmartCookieWifi</h3>
+                        <p>Working website for SmartCookieWifi Inc. Which consists of several pages, implemented using
+                            HTML naming standard "BEM", Webpack and Scss preprocessor technologies for optimising
+                            workflow</p>
+                        <ul class="skills-tags">
+                            <li>JavaScript</li>
+                            <li>Webpack</li>
+                            <li>Scss</li>
+                        </ul>
+                    </a>
+                </div>
+
+                <div class="work-content__item animate__animated wow animate__fadeInUp" data-wow-offset="350">
+                    <a href="https://max4n.github.io/gosurf/" target="_blank">
+                        <h3>Go Surf</h3>
+                        <p>"Go Surf" focuses on user interaction and hand-coded CSS animations to show a clear
+                            understanding of key aspects of CSS animations. Project also uses JQuery library to
+                            simplify working with responsive elements of the website</p>
+                        <ul class="skills-tags">
+                            <li>CSS Animations</li>
+                            <li>JQuery</li>
+                            <li>Core knowledge</li>
+                        </ul>
+                    </a>
+                </div>
+
+                <div class="work-content__item animate__animated wow animate__fadeInUp" data-wow-offset="250">
+                    <a href="https://clickr-4311f.web.app/">
+                        <h3>React Clicker</h3>
+                        <p>Simple clicker app, which was created to get more familiar with React.js framework, making it
+                            key project on start of making complicated interactive website designs </p>
+                        <ul class="skills-tags">
+                            <li>React</li>
+                            <li>JSX</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </a>
+                </div>
+
+                <div class="work-content__item animate__animated wow animate__fadeInUp" data-wow-offset="250">
+                    <a href="https://max4n.github.io/verstka/">
+                        <h3>Adaptive Design</h3>
+                        <p>Nowadays mobile phones account for over 60% of all website traffic, this project is focusing
+                            on basic principles of proper and clean HTML and CSS structure and Adaptive design.</p>
+                        <ul class="skills-tags">
+                            <li>Adaptive Design</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="process">
+            <h2>[ My Methodology ]</h2>
+            <div class="process-grid">
+
+                <div class="process-column animate__animated wow animate__fadeInLeft" data-wow-offset="250">
+                    <h3>[ 01. DISCOVERY & DESIGN ]</h3>
+                    <p>Every project begins with a clear understanding of its goals. I focus on translating concepts
+                        into a structured, intuitive user experience, ensuring the core principles of adaptive design
+                        and user interaction are central to the architectural plan.
+                    </p>
+                    <ul>
+                        <li>User Flow & Architecture</li>
+                        <li>UI/UX Principles</li>
+                        <li>Mobile Adaptive Planning</li>
+                        <li>Requirements Analysis</li>
+                    </ul>
+                </div>
+
+                <div class="process-column animate__animated wow animate__fadeIn" data-wow-offset="250">
+                    <h3>[ 02. DEVELOPMENT & TESTING ]</h3>
+                    <p>I bring designs to life with clean, semantic code using standards. My focus is on writing
+                        maintainable styles using preprocessors and building complex, interactive components with
+                        JavaScript and React, as demonstrated in my project work.</p>
+                    <ul>
+                        <li>JavaScript (ES6+) & React.js</li>
+                        <li>Advanced CSS (SCSS, Animations)</li>
+                        <li>Semantic HTML5 & BEM Standards</li>
+                        <li>Unit & Integration Testing (Jest)</li>
+                    </ul>
+                </div>
+
+                <div class="process-column animate__animated wow animate__fadeInRight" data-wow-offset="250">
+                    <h3>[ 03. DEPLOYMENT & ITERATION ]</h3>
+                    <p>I rely on Git for version control and clear communication to deliver a polished, accessible final
+                        product. Webpack is being used to bundle code and optimize site performance and workflow</p>
+                    <ul>
+                        <li>Git Version Control</li>
+                        <li>Performance Optimization</li>
+                        <li>Build Tools & Bundling (Webpack)</li>
+                        <li>Deployment and Hosting</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <section id="connect">
+        <h2>[ Let's build something. ]</h2>
+
+        <a href="cv.pdf" class="cv-button-large animate__animated wow animate__fadeInUp" data-wow-offset="250"
+            target="_blank" rel="noopener noreferrer">
+            View My Credentials
+        </a>
+
+        <div class="connect-links">
+            <a href="https://github.com/Max4n" target="_blank" class="glitched-btn wow animate__fadeInUp"
+                data-wow-offset="150" rel="noopener noreferrer">[ GitHub ]</a>
+            <a href="https://www.linkedin.com/in/maksym-mikhno-319351358/" target="_blank"
+                class="glitched-btn wow animate__fadeInUp" data-wow-offset="150" rel="noopener noreferrer">[ LinkedIn
+                ]</a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/powerglitch@latest/dist/powerglitch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var header__typed = new Typed('#homepage-header__text', {
+            strings: ['Maksym Mikhno'],
+            typeSpeed: 100,
+            showCursor: false,
+            onComplete: function (self) {
+
+                var main_info__typed = new Typed('#homepage-main__text', {
+                    strings: ['Front-end developer starting from 2019, looking to grow in the sphere of web-site creation, implementing complex graphical solutions and animations in javascript and react.js. '],
+                    typeSpeed: 7,
+                    showCursor: false,
+
+
+                    onComplete: function (self) {
+
+                        var additional_info__typed = new Typed('#homepage-additional__text', {
+                            strings: ['Currently 2nd year of computer science in University of Dundee, expanding my knowledge on physical computing, algorithm knowledge and communication skills. '],
+                            typeSpeed: 7,
+                            showCursor: false,
+                        });
+                    }
+                });
+            }
+        });
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        PowerGlitch.glitch('.glitched-btn')
+        var cvBtn = document.querySelector('.cv-button-large');
+
+        cvBtn.addEventListener('mouseover', (event) => {
+            cvBtn.classList.add("glitched-btn-cv");
+            PowerGlitch.glitch('.glitched-btn-cv')
+        });
+
+
+        cvBtn.addEventListener('mouseout', (event) => {
+            cvBtn.classList.remove("glitched-btn-cv");
+        });
+    </script>
+</body>
+
+</html>
